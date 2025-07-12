@@ -1,0 +1,131 @@
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #fdfdfd, #f0f9ff);
+      color: #222;
+      transition: background 0.5s ease;
+    }
+
+    header {
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+      border-bottom: 5px solid #eee;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .search-filter {
+      text-align: center;
+      margin: 20px;
+    }
+
+    #searchInput {
+      padding: 10px;
+      width: 90%;
+      max-width: 400px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .item:hover {
+      transform: translateY(-5px);
+    }
+
+    .item h3 {
+      margin: 10px 0 5px;
+    }
+
+    .item p {
+      color: #0072ff;
+      font-weight: bold;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 60vh;
+      margin-bottom: 10px;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      color: white;
+    }
+
+    .contact, footer {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0072ff;
+      font-weight: bold;
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .swiper {
+        height: 50vh;
+      }
+    }
+   img {
+  width: 100%;              
+  height: auto;             
+  object-fit: cover;        
+  border-radius: 10px;      
+  max-width: 400px;         
+  display: block;
+  margin: 0 auto;
+}
+
+
